@@ -84,8 +84,11 @@ if (numero % 2 === 0) {
  * @returns {string} - "Aprobado" si nota >= 60, "Reprobado" si no
  */
 function evaluarNota(nota) {
-  // TODO: Implementa la lÃ³gica con if/else
-  return "";
+  if (nota >= 60) {
+    return "Aprobado";
+  } else {
+    return "Reprobado";
+  }
 }
 
 /**
