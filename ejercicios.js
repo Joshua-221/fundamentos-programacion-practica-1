@@ -115,8 +115,14 @@ function mayorDeTres(a, b, c) {
  * @returns {string} - "menor" (0-17), "adulto" (18-64), "mayor" (65+)
  */
 function clasificarEdad(edad) {
-  // TODO: Implementa la clasificaciÃ³n con if/else if/else
-  return "";
+ if (edad <= 17) {
+    return "menor";
+  } else if (edad <= 64) {
+    return "adulto";
+  } else {
+    return "mayor";
+  }
+  //este código muestra edad menor, edad mayor 
 }
 
 // ============================================
