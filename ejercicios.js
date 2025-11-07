@@ -144,12 +144,15 @@ function factorial(n) {
 
 /**
  * Ejercicio 3.2: Suma de nÃºmeros del 1 al n (4 puntos)
- * @param {number} n - NÃºmero lÃ­mite
- * @returns {number} - Suma de 1 + 2 + 3 + ... + n
+ * @param {number} n 
+ * @returns {number}
  */
 function sumaHastaN(n) {
-  // TODO: Usa un bucle para sumar todos los nÃºmeros desde 1 hasta n
-  return 0;
+  let suma = 0;
+  for (let i = 1; i <= n; i++) {
+    suma += i;
+  }
+  return suma; // suma secuencial hasta n 
 }
 
 /**
