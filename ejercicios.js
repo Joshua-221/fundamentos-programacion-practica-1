@@ -45,9 +45,10 @@ function operacionesBasicas(a, b) {
  * @param {number} altura - Altura del rectÃ¡ngulo
  * @returns {number} - Ãrea del rectÃ¡ngulo
  */
+
 function areaRectangulo(base, altura) {
   // TODO: Calcula y retorna el Ã¡rea (base * altura)
-  return 0;
+  return base * altura; //Agrego datos para calcular base * altura
 }
 
 /**
