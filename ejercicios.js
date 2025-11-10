@@ -1,6 +1,6 @@
-// FUNDAMENTOS DE PROGRAMACIÃ“N - PRÃCTICA
-// Nombre del estudiante: _________________
-// Fecha: _________________
+// FUNDAMENTOS DE PROGRAMACIÃ“N - PRÃCTICA
+// Nombre del estudiante: Joshua Isaí Cruz Mosqueda 
+// Fecha: Martes 11 de noviembre 2025
 
 // ============================================
 // SECCIÃ“N 1: VARIABLES Y TIPOS DE DATOS (10 puntos)
@@ -195,8 +195,11 @@ function numerosPares(n) {
  * @returns {number} - Suma de todos los elementos
  */
 function sumaArray(numeros) {
-  // TODO: Suma todos los elementos del array
-  return 0;
+  let suma = 0;
+  for (let i = 0; i < numeros.length; i++) {
+    suma += numeros[i];
+  }
+  return suma; //agrego arreglo para sumar 
 }
 
 /**
