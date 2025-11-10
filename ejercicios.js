@@ -1,6 +1,6 @@
 // FUNDAMENTOS DE PROGRAMACIÃ“N - PRÃCTICA
 // Nombre del estudiante: Joshua Isaí Cruz Mosqueda 
-// Fecha: Martes 11 de noviembre 2025
+// Fecha: Domingo 9 de noviembre 2025
 
 // ============================================
 // SECCIÃ“N 1: VARIABLES Y TIPOS DE DATOS (10 puntos)
