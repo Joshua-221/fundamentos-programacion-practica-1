@@ -199,7 +199,7 @@ function sumaArray(numeros) {
   for (let i = 0; i < numeros.length; i++) {
     suma += numeros[i];
   }
-  return suma; //agrego arreglo para sumar 
+  return suma; //agrego un arreglo que sume numeros 
 }
 
 /**
