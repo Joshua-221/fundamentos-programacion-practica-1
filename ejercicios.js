@@ -191,26 +191,30 @@ function numerosPares(n) {
 
 /**
  * Ejercicio 4.1: Suma de elementos de un array (4 puntos)
- * @param {Array<number>} numeros - Array de nÃºmeros
- * @returns {number} - Suma de todos los elementos
+ * @param {Array<number>} numeros 
+ * @returns {number} 
  */
 function sumaArray(numeros) {
   let suma = 0;
   for (let i = 0; i < numeros.length; i++) {
     suma += numeros[i];
   }
-  return suma; //agrego un arreglo que sume numeros 
+  return suma;
 }
 
 /**
  * Ejercicio 4.2: Promedio de un array (5 puntos)
- * @param {Array<number>} numeros - Array de nÃºmeros
- * @returns {number} - Promedio de los nÃºmeros
+ * @param {Array<number>} numeros 
+ * @returns {number} 
  */
 function promedioArray(numeros) {
-  // TODO: Calcula el promedio (suma total / cantidad de elementos)
-  return 0;
-}
+  if (numeros.length === 0) return 0;
+  let suma = 0;
+  for (let i = 0; i < numeros.length; i++) {
+    suma += numeros[i];
+  }
+  return suma / numeros.length;
+} //formula para sacar el promedio de un arreglo 
 
 /**
  * Ejercicio 4.3: Encontrar el mÃ¡ximo (6 puntos)
