@@ -233,14 +233,18 @@ function encontrarMaximo(numeros) {
 
 /**
  * Ejercicio 4.4: Filtrar nÃºmeros mayores a un valor (5 puntos)
- * @param {Array<number>} numeros - Array de nÃºmeros
- * @param {number} limite - Valor lÃ­mite
- * @returns {Array<number>} - Nuevo array solo con nÃºmeros mayores al lÃ­mite
+ * @param {Array<number>} numeros 
+ * @param {number} limite 
+ * @returns {Array<number>} 
  * Ejemplo: filtrarMayores([1, 5, 3, 8, 2], 4) debe retornar [5, 8]
  */
 function filtrarMayores(numeros, limite) {
-  // TODO: Crea un nuevo array con solo los nÃºmeros mayores al lÃ­mite
   const mayores = [];
+  for (let i = 0; i < numeros.length; i++) {
+    if (numeros[i] > limite) {
+      mayores.push(numeros[i]); //se genera la cantidad mayor de los números y regresar los más grandes 
+    }
+  }
   return mayores;
 }
 
