@@ -250,16 +250,18 @@ function filtrarMayores(numeros, limite) {
 
 /**
  * Ejercicio 4.5: Invertir un array (5 puntos)
- * @param {Array} arr - Array a invertir
- * @returns {Array} - Nuevo array con los elementos en orden inverso
+ * @param {Array} arr 
+ * @returns {Array} 
  * Ejemplo: invertirArray([1, 2, 3, 4]) debe retornar [4, 3, 2, 1]
  */
 function invertirArray(arr) {
-  // TODO: Invierte el orden de los elementos
-  // Pista: Puedes usar arr.reverse() o hacerlo manualmente
   const invertido = [];
+  for (let i = arr.length - 1; i >= 0; i--) {
+    invertido.push(arr[i]);
+  } //al poner mis números, el arreglo se muestra de manera inversa
   return invertido;
 }
+// Alternativa: return [...arr].reve
 
 // ============================================
 // SECCIÃ“N 5: ARRAYS BIDIMENSIONALES (30 puntos)
